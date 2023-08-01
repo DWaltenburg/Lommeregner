@@ -21,7 +21,7 @@ def squareRoot(x):
 def modulus(x,y):
     return x%y
 
-operator = int(input("Vælg en funktion: \n1 - plus\n2 - minus\n3 - gange\n4 - divider\n5 - power\n6 - square root\n"))
+operator = int(input("Vælg en funktion: \n1 - plus\n2 - minus\n3 - gange\n4 - divider\n5 - power\n6 - square root\n7 - modulus\n"))
 tal1 = float(input("Vælg første tal: "))
 tal2 = float(input("Vælg andet tal: "))
 
@@ -39,5 +39,7 @@ match operator:
         print(power(tal1, tal2))
     case 6:
         print(squareRoot(tal1))
+    case 7:
+        print(modulus(tal1,tal2))
     case _:
         print("Ugyldig valg")
