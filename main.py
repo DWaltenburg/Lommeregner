@@ -18,6 +18,8 @@ def power(x,y):
 def squareRoot(x):
     return math.sqrt(x)
 
+def modulus(x,y):
+    return x%y
 
 operator = int(input("Vælg en funktion: \n1 - plus\n2 - minus\n3 - gange\n4 - divider\n5 - power\n6 - square root\n"))
 tal1 = float(input("Vælg første tal: "))
