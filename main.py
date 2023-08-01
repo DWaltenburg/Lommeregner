@@ -13,6 +13,9 @@ def subtract(x,y):
 def power(x,y):
     return pow(x,y)
 
+def modulus(x,y):
+    return x%y
+
 operator = int(input("Vælg en funktion: \n1 - plus\n2 - minus\n3 - gange\n4 - divider\n5 - power\n"))
 tal1 = float(input("Vælg første tal: "))
 tal2 = float(input("Vælg andet tal: "))
